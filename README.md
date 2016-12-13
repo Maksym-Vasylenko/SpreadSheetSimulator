@@ -23,16 +23,16 @@ Program should take sheet description with formulas from the standard input, eva
 
 Sample Input:
 
-12  =C2 3 'Sample
+12           =C2    3      'Sample
 
-=A1+B1*C1/5 =A2*B1 =B3-C3 'Spread
+=A1+B1*C1/5  =A2*B1 =B3-C3 'Spread
 
-'Test =4-3 5 'Sheet 
+'Test        =4-3    5     'Sheet 
 
 Sample Output:
 
-12 -4 3  Sample
+12  -4     3  Sample
 
-9.6 -38.4 -4 Spread
+9.6 -38.4 -4  Spread
 
-Test 1 5  Sheet  
+Test 1     5  Sheet  
