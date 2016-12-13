@@ -1,7 +1,7 @@
 package com.vasylenko.global.variables;
 
 /**
- * Contains useful string that are used through out the program
+ * Contains useful strings that are used through out the program
  */
 public interface TextVariables {
 
