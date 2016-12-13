@@ -1,7 +1,7 @@
 package com.vasylenko.global.variables;
 
 /**
- * Contains string for regular expressions
+ * Contains strings for regular expressions
  */
 public interface RegExp {
 
