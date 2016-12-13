@@ -5,7 +5,7 @@ import com.vasylenko.model.sheet.Sheet;
 /**
  * Contains method that any class that want to implement Parsable must realize.
  *
- * @version 1.0 08 DEC 2017
+ * @version 1.0 08 DEC 2016
  * @author Maksym Vasylenko
  */
 public interface Parsable {
