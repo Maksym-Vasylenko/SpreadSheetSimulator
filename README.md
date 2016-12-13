@@ -23,7 +23,7 @@ Program should take sheet description with formulas from the standard input, eva
 
 Sample Input:
 
-12\t=C2    3      'Sample
+12           =C2    3      'Sample
 
 =A1+B1*C1/5  =A2*B1 =B3-C3 'Spread
 
