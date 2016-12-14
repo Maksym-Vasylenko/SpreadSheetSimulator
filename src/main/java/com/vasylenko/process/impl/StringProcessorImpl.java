@@ -11,8 +11,6 @@ import com.vasylenko.process.StringProcessor;
  */
 public class StringProcessorImpl implements StringProcessor{
 
-
-
     public void processStrings(Sheet sheet) {
         for (Row row : sheet.getListOfRows()) {
             for (Cell cell : row.getCellListInRow()) {

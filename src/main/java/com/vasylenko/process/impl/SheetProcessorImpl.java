@@ -20,11 +20,15 @@ public class SheetProcessorImpl implements SheetProcessor {
      */
     private ExpressionProcessor expressionProcessorImpl;
 
+    /**
+     * Responds for processing strings.
+     */
     private StringProcessor stringProcessorImpl;
 
+    /**
+     * Responds for processing error after input.
+     */
     private CellErrorTypeProcessor cellErrorTypeProcessor;
-
-
 
     public SheetProcessorImpl() {
         expressionProcessorImpl = new ExpressionProcessorImpl();

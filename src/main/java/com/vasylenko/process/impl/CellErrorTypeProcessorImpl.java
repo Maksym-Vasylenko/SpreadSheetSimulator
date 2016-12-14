@@ -13,7 +13,7 @@ import com.vasylenko.process.CellErrorTypeProcessor;
 public class CellErrorTypeProcessorImpl implements CellErrorTypeProcessor {
 
     /**
-     * If cell contains
+     * If cell contains error input special String value will be set to this cell.
      * @param sheet
      */
     public void processErrors(Sheet sheet) {
