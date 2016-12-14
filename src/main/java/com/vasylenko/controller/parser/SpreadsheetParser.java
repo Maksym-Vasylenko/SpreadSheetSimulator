@@ -60,13 +60,13 @@ public class SpreadsheetParser implements Parsable {
             sheet.addCellToRow(new CellImpl(cellValue, CellType.EXPRESSION,rowNumber,column));
         } else if (cellValue.matches(RegExp.REGEXP_STRING)) {
             LOGGER.debug(LoggerVariables.CELL_TYPE_STRING);
-            sheet.addCellToRow(new CellImpl(cellValue.substring(1,cellValue.length()), CellType.STRING,rowNumber,column));
+            sheet.addCellToRow(new CellImpl(cellValue, CellType.STRING,rowNumber,column));
         } else if (cellValue.matches(RegExp.REGEXP_EMPTY)) {
             LOGGER.debug(LoggerVariables.CELL_TYPE_STRING);
             sheet.addCellToRow(new CellImpl(cellValue, CellType.EMPTY,rowNumber,column));
         } else {
             LOGGER.debug(LoggerVariables.CELL_TYPE_ERROR);
-            sheet.addCellToRow(new CellImpl(TextVariables.ERROR_INPUT, CellType.ERROR,rowNumber,column));
+            sheet.addCellToRow(new CellImpl(cellValue, CellType.ERROR,rowNumber,column));
         }
     }
 
